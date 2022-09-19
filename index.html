@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+   
+    <link rel="stylesheet" href="style.css" media="all"/>
+    <link rel="stylesheet" href="style.telas-menores.css" >
+    <link rel="stylesheet" href="style.telas.css" >
+    
+    
+    <title><Pagina Estética></title>
+</head>
+<header >
+    
+    <address>
+        <a href="tel:+351 654876234"> <img src="imagens/logo/telefone.png" alt="telefone"></a>
+        <a href="mailto:clinica10@gmail.com"><img src="imagens/logo/email.png" alt="email"> </a>
+        <a href="#"><img src="imagens/logo/face.png" alt="facebook"></a>
+        <a href="#"><img src="imagens/logo/insta.png" alt="instagran"></a>
+        <a href="#"><img src="imagens/logo/twitter.png" alt="witter"></a>
+    </address>
+
+    <img src="imagens/imagem-principal.png" alt="">
+    
+    <i id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</i>
+
+    <div id="foto">  
+    </div>
+
+  <h1 id="welcome" >WELCOME</h1>
+    
+    <nav id="menu">
+
+        <ul class= "primeiro-menu">
+            <li class="iguais"><a href="#">Home</a></li>
+            <li class="iguais"><a href="#">About</a></li>
+            <li class="iguais"><a href="#">Services</a>
+                <ul class="ul">
+                    <li><a href="#">Plastic Surgery</a></li>
+                    <li><a href="#">Hair Removal</a></li>
+                    <li><a href="#">Facial Treatments</a></li>
+                    <li><a href="#">Spa</a></li>
+                </ul>
+                </li>
+            <li class="iguais"><a href="#">Galery</a></li>
+            <li class="iguais diferente"><a href="#">Opportunities</a></li>
+        </ul>
+    </nav>
+   
+</header>
+<body onresize="mudouTamanho()">
+    <main>
+       <section id="imagens-iniciais">
+        <div class="a div-iguais">  <figure><img src="imagens/imagens-inicio/cirurgia.png" alt="silicone"></figure><p>plastic surgery</p></div>
+
+        <div class="b div-iguais"><figure><img src="imagens/imagens-inicio/depilacao.png" alt="depilacao"></figure><p>
+            hair removal</p></div>
+
+        <div class="c div-iguais"><figure><img src="imagens/imagens-inicio/limpeza-pele.png" alt="limpeza de pele"></figure><p>facial treatments</p></div>
+
+        <div class="d div-iguais"><figure><img src="imagens/imagens-inicio/spa.png" alt="spa"></figure><p>Spa</p></div>
+       </section> 
+
+
+
+       <section id="missoes">
+        <h1> OUR SERVICES</h1>
+       
+        <div class="div-one">
+            <h2> Plastic Surgery </h2>
+                <ul>
+                    <li>Tummy Tuck</li>
+                    <li>Liposuction</li>
+                    <li>Mammoplasty</li>
+                </ul>
+
+                <a href="#">
+                    know more</a>
+            
+        </div >
+        <div class="div-two" > 
+            <h2>Hair Removal</h2>
+            <ul>
+            
+                <li>Wax</li>
+                <li>Laser</li>
+            </ul>
+            <a href="#">
+                know more</a>
+        </div>
+        <div class="div-three">
+            <h2>Facial Treatments</h2>
+            <ul>
+                
+                <li>FaceAcne</li>
+                <li>Peeling Químic</li>
+                <li>Botulinum Toxin</li>
+                <li>Peeling Hollywood</li>
+                <li>Facial Revitalization</li>
+                <li>Laser Removal - Stains</li>
+
+            </ul>
+            <a href="#">
+                know more</a>
+        </div>
+        <div class="div-four">
+            <h2>Spa</h2>
+            <ul>
+                <li>Massage</li>
+                <li>Foot/ hand</li>
+                <li>Lipocavitation</li>
+                <li>Skin cleansing</li>
+                <li>Reducing Massage</li>
+            </ul>
+            <a href="#">
+                know more</a>
+        </div>
+       </section>
+
+       <div class="final">
+        <p>Any question we are available <a href="#">Contact us</a></p>
+       </div>
+
+       <figure class="mulheres"><img src="imagens/grupo-de-mulheres.jpg" alt="Mulher lendo"></figure>
+
+    </main>
+<footer>
+    <section>
+        <div class="contact" >
+         <h1>Contact</h1>
+
+        <a href="tel:+351 654876234"> <img src="imagens/logo/telefone.png" alt="telefone"><p>Tel: +351 654876234</p></a>
+        <a class="email" href="mailto:clinica10@gmail.com"><img src="imagens/logo/email.png" alt="email"> <p>E-mail: clinica10@gmail.com</p></a>
+        </div>
+        <div class="siga">
+            <p>Follow us on social networks</p>
+            <a href="#"><img src="imagens/logo/face.png" alt="facebook"></a>
+            <a href="#"><img src="imagens/logo/insta.png" alt="instagran"></a>
+            <a href="#"><img src="imagens/logo/twitter.png" alt="witter"></a>
+        </div>
+    </section>
+
+    <div class="ultima">©2022 by Stetic - Advanced Aesthetics.</div>
+</footer>
+
+    <script>
+        function clickMenu(){
+            if(menu.style.display == 'block'){
+                menu.style.display = 'none';
+                welcome.style.display = 'block';
+            }
+            else{menu.style.display = 'block'
+            welcome.style.display = 'none';}
+        }
+        function mudouTamanho(){
+            if(window.innerWidth >= 900){
+                menu.style.display = 'block';
+                burguer = 'none';
+            }else{menu.style.display = 'none';
+                burguer.style.display = 'block';}
+        }
+    </script>
+    
+    
+</body>
+</html>

@@ -1,0 +1,187 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 900px){
+
+
+
+header #foto{
+    height: 500px;
+    }
+
+header #welcome{
+    padding-bottom: 15px;
+    font-size: 4em;
+}   
+
+header nav{
+    
+    display: block;
+    background-color: transparent;
+    width: 100%;
+    margin: auto;
+    height: 100px;
+    margin-top: 4px;
+    padding-top: 1px;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -67%); 
+}
+
+header nav .primeiro-menu{
+    background-color: #17b5a5;
+   
+    text-align: center;
+    margin: auto;
+    width: 90%; 
+    height: 50px;
+}
+
+header #menu .primeiro-menu .iguais{
+    
+    display: inline-block;
+    border: none;
+    height: 49px;
+    border-left: 1px solid rgba(0, 0, 0, 0.153);
+    padding-right: 9px;
+    padding-top: 15px;
+    border-radius: 0%;
+    margin-right: -4px;
+}
+
+header #menu .primeiro-menu .diferente{
+    border-right: 1px solid rgba(0, 0, 0, 0.153);
+}
+header #menu  .primeiro-menu .iguais:hover{
+    background-color: #36e2df;
+    border-radius: 4px;
+    height: 50px;
+}
+
+header #menu .primeiro-menu a{
+    font-size: 16px;
+    text-decoration: none;
+   
+}
+
+/* sub-menu (services) */
+
+header nav ul li ul {
+    background-color: #59d4d4;
+    margin-left: -70px;
+    display: none;
+    width: 220px;
+    height: 172px;
+    position: absolute;
+    border-bottom: 1px solid black;
+}
+header nav ul li ul li  {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.314);
+    width: 100%;
+    border-radius: 5%;
+    height: 43px;
+   
+}
+
+header nav ul li:hover ul{
+    display: block;
+    margin-top: 17px;
+    
+}
+header nav ul li ul li:hover{
+    background-color: #11d9d6; 
+    padding-top: 14px;
+    height: 45px;
+   
+}
+   
+#imagens-iniciais div{
+    margin-top: 200px;
+    background-color: rgb(255, 255, 255);
+    height:150px;
+    display:inline-block;
+    margin-right: -4px;
+       
+    }       
+#imagens-iniciais .div-iguais{
+    width: 25%;
+    }
+
+#imagens-iniciais .c >p{
+    padding-top: 14px;
+    }
+
+#imagens-iniciais .d >p{
+    padding-top: 1px;
+    }
+
+main .mulheres > img{
+        height: 600px;
+    }
+
+ #missoes{
+   margin-left: 12px;
+   margin-bottom: 20px;
+ } 
+ #missoes div{
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.202);
+    height:175px;
+    width: 49%;
+    display:inline-flex;
+   
+ } 
+#missoes div h2{
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    position: relative;
+    height: 50px;
+    width: 160px;
+    top: 40%;
+    left: 0%;
+    transform: translate(0%, 5%); 
+}
+#missoes div ul{
+    padding-top: 40px;
+}
+#missoes .div-two ul{
+    padding-top: 50px;
+}
+#missoes .div-three ul{
+    padding-top: 0px;
+}
+#missoes .div-four ul{
+    padding-top: 11px;
+}
+#missoes div ul li{
+    padding-top: 7px;
+    font-size: 16px;
+}
+#missoes div > a{
+    background-color:#0FC2C0 ;
+    border: 2px solid rgba(0, 0, 0, 0.251);
+    margin-left: 100px;
+    width:70px ;
+    height: 60px;
+    text-align: center;
+    padding-top :10px;
+}
+#missoes div > a:hover{
+    font-size: 18px;
+}
+  
+footer section{
+    display:inline-flex;
+    height: 90px;
+}
+footer section .contact .email{
+    margin-left: -50px;
+}
+
+footer section .siga{
+    margin-left: 150px;
+    text-align: center;
+}
+
+}
+    

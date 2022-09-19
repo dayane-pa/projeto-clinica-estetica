@@ -1,0 +1,341 @@
+@charset "UTF-8";
+
+    
+
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+} 
+
+header{
+    background-color: white;
+    height: 525px;
+    max-width: 900px;
+    position: relative;
+}
+
+header address{
+    background-color: black;
+    width: 100%;
+    height: 25px;
+}
+
+header address a > img{
+    color: rgb(255, 255, 255);
+    width: 20px;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+header > img{
+    position: relative;
+    width: 160px;
+    padding-bottom: 10px;
+    top: -7%;
+    left: 50%;
+    transform: translate(-50%, 30%);
+}
+
+i#burguer{
+    color: black;
+    display: block;
+    width: 35px;
+    margin: auto;
+    text-align: center;
+    padding-top: 2px;
+    font-size: 1.5em;
+    box-shadow: -1px -2px 16px 0px rgba(0, 0, 0, 0.144);
+    border-radius: 10px 10px 0px 0px;
+}
+i#burguer:hover{
+    cursor:pointer;
+    color: #0CABA8;
+}
+
+header nav{
+    position: absolute;
+    display: block;
+    width: 100%;
+    margin: auto;
+    height: 100px;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -37%); 
+}
+
+header nav ul{
+    background-color: #32ddccb2;
+    position: relative;
+    margin: auto;
+    width: 250px;
+    border-radius: 6px;
+    z-index: 2;
+}
+
+header nav ul li{
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.258);
+    text-align: center;
+    border-radius: 6px;
+}
+header nav ul li:hover{
+    transition: 0.5s;
+    background-color: #0CABA8;
+    box-shadow: 3px 6px 8px rgba(0, 0, 0, 0.349);
+}
+
+header nav ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #023535;
+    text-transform: uppercase;
+}
+
+/* sub menu (services) */
+header nav ul li ul {
+    background-color: #59d4d4;
+    margin-left: -10px;
+    display: none;
+    width: 220px;
+    margin: auto;
+    
+}
+
+header nav ul li:hover ul{
+    display: block;
+    transition-duration: 10s;
+    margin-top: 10px;
+}
+header nav ul li ul li:hover{
+    background-color: #11d9d6;
+   
+}
+
+header #foto{
+    background-image: url(imagens/imagem-da-frente.jpg) ;
+    height: 300px;
+    background-position: center center;
+    background-size: cover;
+    top: 50%;
+    left: 50%;
+    transform: translate(0%, 0%);
+}
+
+ #welcome{
+    display: block;
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(0%, -350%);
+}
+
+body{
+    background-color: #62cdd98d;
+    max-width: 900px;
+    margin: auto;
+    height: 1000px;
+}
+main{
+    background-color: white;
+    max-width: 900px ;
+   
+    
+}
+#imagens-iniciais{
+    background-color: rgb(249, 241, 242);
+    width:100%;
+}
+
+#imagens-iniciais div{
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.202);
+    height:130px;
+    display:inline-block;
+    margin-right: -5px;
+    margin-bottom: -4px;
+    background-image: linear-gradient(to right, #c7ffed92,#02c2bf53);
+    width: 50%;
+    border-bottom: 6px solid rgba(255, 255, 255, 0.518);
+    border-top:6px solid rgba(255, 255, 255, 0.548) ;
+}
+
+#imagens-iniciais .div-iguais img{
+    position: absolute;
+    width: 100px; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -66%);
+}
+#imagens-iniciais div.d img{
+    position: absolute;
+    width: 130px; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+}
+
+#imagens-iniciais .div-iguais > p{
+    position: absolute;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
+    text-align: center;
+    width: 48vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 240%);
+}
+
+#imagens-iniciais .c > p{
+    width: 40vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 90%);
+} 
+
+ #imagens-iniciais .d > p{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 220%);
+}
+#missoes{
+    padding: 10px;
+}
+
+#missoes h1{
+    font-size: 1.3em;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#missoes div{
+    margin-bottom: 2px;
+    position: relative;
+    border-radius: 10px;
+    border: 2px solid #0235352e ;
+    padding: 3px;
+    padding-bottom: 15px;
+   
+}
+#missoes div:hover{
+    border: none;
+    background-image: linear-gradient(to bottom,#0caba88f, #13fffb52  );
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.31);
+}
+#missoes div h2{
+    padding-left: 2px;
+    font-size: 1em;
+    padding-top: 5px; 
+}
+
+#missoes div ul{
+    font-size: 14px;
+    padding-left: 2px;
+    display: inline;  
+}
+#missoes div ul li{
+    text-transform: inherit;
+    margin-left: 19px;
+    padding-bottom: 3px;
+
+}
+#missoes div a{
+    color:#015958;
+    position: absolute;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(50%, -50%);
+}
+#missoes div a:hover{
+    background-color:#0159583b;
+    color: white;
+    transition: .5s;
+    box-shadow: 0 0 5px #0CABA8,
+                0 0 25px #0CABA8,
+                0 0 25px #0CABA8,
+                0 0 25px #0CABA8;
+
+}
+main .final{
+    background-color:#008F8C ;
+    color: white;
+    padding: 3px;
+    text-align: center;
+    padding: 30px;
+}
+main .final a{
+    color: white;
+}
+
+main > figure img{
+    width: 100%;
+    height: 250px;
+}
+footer{
+    
+    height:140px
+}
+
+footer section{
+    background-color: rgb(43, 42, 42);
+    width: 100%;
+    height: 170px;
+}
+footer div{
+    padding-left: 5px;
+}
+footer h1{
+    color: white;
+    font-size: .9em;
+    padding-top: 10px;
+}
+footer .contact a{
+    position: relative;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    width: 230px;
+    height: 30px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    font-size: 14px;
+}
+footer div a > p{
+    position: absolute;
+    height: 20px;
+    width: 210px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -40%);
+}
+footer div a > img {
+    width: 20px;
+    margin: 5px 5px 5px ; 
+}
+
+footer .siga{
+    padding-top: 10px;
+}
+footer .siga p{
+    color: white;
+    padding-bottom: 10px;
+}
+
+.ultima{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
